@@ -1,0 +1,47 @@
+.FormMap {
+    display: flex;
+    padding: 4rem 5%;
+}
+
+.FormMap .map {
+    width: 70%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-basis: 70%;
+    flex-shrink: 5;
+    width: 100%;
+
+}
+
+.FormMap .map iframe {
+    width: 100%;
+    border-radius: 7px;
+
+}
+
+.FormMap .form {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-left: 3rem;
+}
+
+.FormMap .form input, .FormMap .form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    resize: none;
+}
+
+.FormMap .form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #f90;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
